@@ -1,0 +1,36 @@
+:root{
+    --cor-principal: #394C65;
+    --cor-secundaria: #FFF1A6;
+
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: var(--cor-principal);
+    color: white;
+}
+
+header{
+    width: 100vw;
+    background-color: #394C65;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #FFF1A6;
+}
+
+ul{
+    display: flex;
+    gap: 120px;
+    font-weight: bold;
+    margin: auto;
+}
+
+ul a:hover{
+    color: var(--cor-secundaria);
+    transition: 200ms;
+}
+
+header figure img{
+    width: 100px;
+}
