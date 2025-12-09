@@ -1,13 +1,17 @@
 :root{
     --cor-principal: #394C65;
     --cor-secundaria: #FFF1A6;
-
+    --fonte: "Noto Sans", sans-serif;
 }
 
 body{
     font-family: "Noto Sans", sans-serif;
     background-color: var(--cor-principal);
     color: white;
+}
+
+html, body{
+    scroll-behavior: smooth;
 }
 
 header{
@@ -17,16 +21,19 @@ header{
     display: flex;
     align-items: center;
     border-bottom: 5px solid #FFF1A6;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 
-ul{
+nav{
     display: flex;
     gap: 120px;
     font-weight: bold;
     margin: auto;
 }
 
-ul a:hover{
+nav a:hover{
     color: var(--cor-secundaria);
     transition: 200ms;
 }

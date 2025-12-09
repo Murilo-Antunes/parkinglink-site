@@ -18,3 +18,8 @@ ul, ol, li{
 html{
     height: 100vh;
 }
+
+html, body{
+    overflow-x: hidden;
+
+}
