@@ -424,7 +424,7 @@ button{
     }
 
     h1 {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     h1#titulo_2 {
@@ -476,7 +476,7 @@ button{
     }
 
     .s_download h1 {
-        font-size: 24px;
+        font-size: 17px;
         margin-top: 20px;
         margin-bottom: 30px;
     }
@@ -495,7 +495,7 @@ button{
     }
 
     .conteudo_download h2 {
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .conteudo_download p {
@@ -523,7 +523,7 @@ button{
     }
 
     .s_quem_somos h1 {
-        font-size: 24px;
+        font-size: 17px;
     }
 
     .quem_somos {
@@ -534,7 +534,7 @@ button{
     }
 
     .quem_somos h1 {
-        font-size: 28px;
+        font-size: 17px;
     }
 
     .quem_somos p {
@@ -550,7 +550,7 @@ button{
     }
 
     .s_manual h1 {
-        font-size: 24px;
+        font-size: 17px;
         margin: 30px 0;
     }
 

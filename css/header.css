@@ -70,7 +70,7 @@ header figure img{
     }
 
     nav {
-        gap: 10px;
+        gap: 15px;
         font-size: 10px;
     }
 
@@ -79,6 +79,6 @@ header figure img{
     }
 
     nav a li {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
