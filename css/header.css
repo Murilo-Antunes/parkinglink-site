@@ -41,3 +41,44 @@ nav a:hover{
 header figure img{
     width: 100px;
 }
+
+/* Tablet - 769px até 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 0 16px;
+    }
+
+    nav {
+        gap: 60px;
+        font-size: 14px;
+    }
+
+    header figure img {
+        width: 80px;
+    }
+
+    nav a li {
+        font-size: 14px;
+    }
+}
+
+/* Mobile - Até 768px */
+@media (max-width: 768px) {
+    header {
+        padding: 0 12px;
+        height: 80px;
+    }
+
+    nav {
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    header figure img {
+        width: 60px;
+    }
+
+    nav a li {
+        font-size: 12px;
+    }
+}
