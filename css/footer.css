@@ -52,7 +52,6 @@ footer{
 @media (min-width: 769px) and (max-width: 1024px) {
     footer {
         padding: 30px 30px;
-        padding-bottom: 0;
     }
 
     .conteudo_footer {
@@ -66,16 +65,16 @@ footer{
 
     .links {
         display: flex;
-        gap: 50px;
+        flex-direction: column;
     }
 
-    .github, .linkedin {
-        gap: 8px;
+    .github{
+        margin-bottom: 20px;
     }
+
 
     .github_icon img, .linkedin_icon img {
         width: 28px;
-        height: 28px;
     }
 
     .github p, .linkedin p {
@@ -84,12 +83,10 @@ footer{
 
     .add_icon img, .add_icon_l img {
         width: 18px;
-        height: 18px;
     }
 
     .github ul, .linkedin ul {
         gap: 35px;
-        padding: 10px 0;
     }
 
     .github ul a, .linkedin ul a {
